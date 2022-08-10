@@ -22,10 +22,10 @@ public class HttpCacheProvider {
         redisProvider.getStore();
         redisProvider.getStore();
         redisProvider.getStore();
-        redisProvider.getStore();
-        redisProvider.getStore();
-        redisProvider.getStore();
-        redisProvider.getStore();
+        redisProvider.getStore(); // until here it works
+        redisProvider.getStore(); // now we have a timeout
+        // redisProvider.getStore();
+        // redisProvider.getStore();
     }
 
 }
